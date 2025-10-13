@@ -139,12 +139,20 @@ export function Contact() {
               <Card className="p-6 bg-card/90 backdrop-blur-sm border-2 border-secondary/20 hover:border-secondary/40 hover:shadow-2xl hover:shadow-secondary/20 transition-all duration-700 hover:-translate-y-2 group cursor-pointer wood-frame">
                 <Phone className="h-6 w-6 text-secondary mb-3 group-hover:scale-110 transition-all duration-500" />
                 <h3 className="font-semibold mb-1 text-foreground">Phone</h3>
-                <a
-                  href="tel:+9779767984746"
-                  className="text-sm text-muted-foreground hover:text-secondary transition-colors"
-                >
-                  +977 9767984746
-                </a>
+                <div className="space-y-1">
+                  <a
+                    href="tel:+9779767984746"
+                    className="text-sm text-muted-foreground hover:text-secondary transition-colors block"
+                  >
+                    +977 9767984746
+                  </a>
+                  <a
+                    href="tel:+9779813733362"
+                    className="text-sm text-muted-foreground hover:text-secondary transition-colors block"
+                  >
+                    +977 9813733362
+                  </a>
+                </div>
               </Card>
 
               <Card className="p-6 bg-card/90 backdrop-blur-sm border-2 border-accent/20 hover:border-accent/40 hover:shadow-2xl hover:shadow-accent/20 transition-all duration-700 hover:-translate-y-2 group cursor-pointer wood-frame">
