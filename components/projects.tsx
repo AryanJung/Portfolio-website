@@ -11,8 +11,8 @@ export function Projects() {
       description:
         "An intelligent news summarization application that uses AI to condense lengthy news articles into concise, easy-to-read summaries.",
       technologies: ["Python", "Machine Learning", "AI", "NLP"],
-      github: "https://github.com/Kura_kani",
-      demo: "https://github.com/Kura_kani",
+      github: "https://github.com/AryanJung/Kura_Kani-",
+      demo: "https://github.com/AryanJung/Kura_Kani-",
       image: "/news-summarizer-ai-app-interface.jpg",
     },
     {
@@ -20,8 +20,8 @@ export function Projects() {
       description:
         "A comprehensive online book platform featuring book browsing, search functionality, and user-friendly interface for book enthusiasts.",
       technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
-      github: "https://github.com",
-      demo: "https://demo.com",
+      github: "https://github.com/AryanJung/AryanJung/tree/main/BooksOnline",
+      demo: "https://github.com/AryanJung/AryanJung/tree/main/BooksOnline",
       image: "/online-bookstore-interface.png",
     },
     {
@@ -29,8 +29,8 @@ export function Projects() {
       description:
         "An interactive web application showcasing popular tourist destinations with detailed information and travel guides.",
       technologies: ["HTML", "CSS", "JavaScript", "Web Design"],
-      github: "https://github.com",
-      demo: "https://demo.com",
+      github: "https://github.com/AryanJung/AryanJung/tree/main/TouristDestination",
+      demo: "https://github.com/AryanJung/AryanJung/tree/main/TouristDestination",
       image: "/tourist-destination-travel-website.jpg",
     },
   ]
