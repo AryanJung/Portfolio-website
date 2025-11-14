@@ -1,13 +1,12 @@
 "use client"
 
 import type React from "react"
-
 import { useState } from "react"
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { Mail, MapPin, Phone } from "lucide-react"
+import { Mail, MapPin, Phone, Download } from 'lucide-react'
 
 export function Contact() {
   const [formData, setFormData] = useState({
@@ -41,6 +40,15 @@ export function Contact() {
       ...formData,
       [e.target.name]: e.target.value,
     })
+  }
+
+  const downloadCV = () => {
+    const link = document.createElement('a')
+    link.href = '/Aryan-Jung-Thapa-CV.pdf'
+    link.download = 'Aryan-Jung-Thapa-CV.pdf'
+    document.body.appendChild(link)
+    link.click()
+    document.body.removeChild(link)
   }
 
   return (
@@ -119,6 +127,16 @@ export function Contact() {
                     className="w-full bg-primary hover:bg-primary/90 text-primary-foreground shadow-lg hover:shadow-primary/30 transition-all duration-300 hover:scale-[1.02] rounded-full disabled:opacity-50 disabled:cursor-not-allowed"
                   >
                     {isSubmitting ? "Sending..." : "Send Message"}
+                  </Button>
+                  
+                  <Button
+                    type="button"
+                    size="lg"
+                    onClick={downloadCV}
+                    className="w-full bg-secondary/80 hover:bg-secondary text-secondary-foreground shadow-lg hover:shadow-secondary/30 transition-all duration-300 hover:scale-[1.02] rounded-full flex items-center justify-center gap-2"
+                  >
+                    <Download className="h-4 w-4" />
+                    Download My CV
                   </Button>
                 </form>
               </Card>
