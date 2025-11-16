@@ -40,7 +40,7 @@ export function Projects() {
       technologies: ["JavaScript", "Browser Extension", "Web API", "Storage"],
       github: "https://github.com/AryanJung/CometNote",
       demo: "https://github.com/AryanJung/CometNote",
-      image: "/browser-extension-note-highlighting-tool.jpg",
+      image: "/browser-extension-note-highlighting-tool.png",
     },
   ]
 
