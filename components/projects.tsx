@@ -2,7 +2,7 @@
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { ExternalLink, Github } from "lucide-react"
+import { ExternalLink, Github } from 'lucide-react'
 
 export function Projects() {
   const projects = [
@@ -32,6 +32,15 @@ export function Projects() {
       github: "https://github.com/AryanJung/AryanJung/tree/main/TouristDestination",
       demo: "https://github.com/AryanJung/AryanJung/tree/main/TouristDestination",
       image: "/tourist-destination-travel-website.jpg",
+    },
+    {
+      title: "CometNote",
+      description:
+        "CometNote allows you to highlight any text on a webpage and save it quickly with a right-click. You can add comments to your saved snippets to remind yourself why you saved them. This helps organize important notes for future reference without hassle.",
+      technologies: ["JavaScript", "Browser Extension", "Web API", "Storage"],
+      github: "https://github.com/AryanJung/CometNote",
+      demo: "https://github.com/AryanJung/CometNote",
+      image: "/browser-extension-note-highlighting-tool.jpg",
     },
   ]
 
